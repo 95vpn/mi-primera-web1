@@ -13,14 +13,14 @@ html {
     box-sizing: inherit;
 }
 
-body { 
+body {
     background-image: url(carreteras.png);
     background-size: cover;
     background-attachment: fixed;
 }
 
 a {
-   text-decoration: none; 
+    text-decoration: none;
 }
 
 .cont-total {
@@ -30,37 +30,65 @@ a {
 }
 
 .header {
-    margin: 0 auto;
-    background-color: hsl(215, 21%, 20%);
+    /* position: fixed; */
+    background-color: hsl(216, 12%, 8%);
+    /* border: 2px solid; */
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
 }
 
-.container {
-    flex-direction: column;
+.container-flex {
     display: flex;
-    align-items: center;
-    
+    position: fixed;
+    width: 600px;
+}
+
+.header .container {
+    /* border: 2px solid cyan; */
+    position: relative;
+    flex: 1;
 }
 
 .wave {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
     color: rgb(255, 106, 0);
-    border: 2px solid #fff;
-    background-attachment: fixed;
+    /* border: 2px solid #fff; */
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .nav {
-    position: absolute;
-    /* border: 2px solid #fff;  */
+    /* border: 2px solid #fff; */
     display: flex;
-    margin-top: 10px;
-    
+    justify-content: space-around;
+    align-items: flex-start;
+    /* position: fixed; */
+}
+
+.container-menu {
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 50%;
+    /* Ajusta según sea necesario */
+    left: 50%;
+    width: 100%;
+    /* Ajusta según sea necesario */
+    transform: translate(-50%, -200%);
+    /* Centra el texto */
+    z-index: 2;
+    /* As */
+
 }
 
 .menu-list {
-    display: flex;
-    margin: 0;
     padding: 0;
-    column-gap: 50px;
-    
+    margin: 0;
+    display: flex;
+    justify-content: space-around
 }
 
 .enlace1 {
@@ -70,12 +98,14 @@ a {
     width: 85px;
     display: flex;
     justify-content: center;
+
 }
 
 .enlace1:hover {
     background-color: hsl(215, 21%, 20%);
     transform: scale(1.1);
     color: rgb(255, 106, 0);
+    display: flex;
 }
 
 .enlace1:active {
@@ -121,27 +151,15 @@ a {
     background-color: #fff;
 }
 
+.title {
+    
+}
+
 .title-1 {
+    /* margin-top: 110px; */
     border: 2px solid;
     display: flex;
     justify-content: center;
     background-image: cover;
     color: seashell;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
