@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-image: url(carreteras.png);
+    background-image: url(/assets/img/carreteras.png);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -127,7 +127,7 @@ a {
     min-height: 500px;
     display: flex;
     flex-direction: column;
-    background-image: url(carreteras.png);
+    background-image: url(/assets/img/carreteras.png);
     background-size: cover;
     background-position: center;
     justify-content: center;
