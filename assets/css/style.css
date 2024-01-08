@@ -1,0 +1,414 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(carreteras.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cont-total {
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+    /* max-width: 600px; */
+    color: hsl(216, 12%, 54%); 
+}
+
+.container {
+    /* margin: 0 auto;
+    padding: 0 20px; */
+    border: 2px solid floralwhite;
+    
+  }
+
+.header {
+    /* border: 2px solid;  */
+    background-color: darkorange;
+    z-index: 5;
+    box-shadow: 0 5px 20px 10px #ea9a2b26;
+    /* margin-top: 100px; */
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+
+/* 
+.wave {
+    color: darkorange;
+    position: relative;
+    z-index: 2;
+} */
+
+.nav {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.logo {
+    /* border: 2px solid; */
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    /* border: 2px solid green; */
+}
+
+.menu-list {
+    /* border: 3px solid; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu-item {
+    
+  }
+
+.menu-link {
+    /* border: 1px solid;  */
+    margin-bottom: 3px;
+    color: beige;
+    transition: color .3s;
+    border-radius: 15px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.menu-link:hover {
+    color: black;
+}
+
+.menu-link:active {
+    background-color: floralwhite;
+}
+
+.btn-open {
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.hero {
+    position: relative;
+    /* border: 2px solid; */
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(carreteras.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75); 
+}
+
+.hero .container-2 {
+    position: relative;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.title-1 {
+    color: floralwhite;
+}
+
+.parr-1 {
+    color: beige;
+    text-align: justify;
+}
+
+.container-3 {
+    
+    margin-bottom: 50px;
+
+}
+
+.title-2 {
+    color: floralwhite;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.sumary {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 5px;
+    color: floralwhite;
+    max-width: 150px;
+    text-align: center;
+    background-color: chocolate;
+}
+
+.sumary:hover {
+    color: black;
+}
+
+.sumary:active {
+    background-color: floralwhite;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.cont-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 20px ;
+    width: 100px;
+    height: 100px;
+}
+
+.cont-box span {
+    display: flex;
+    color: beige;
+}
+
+.cont-box img { 
+    /* border: 2px solid; */
+    display: flex;
+    background-color: beige;
+}
+
+.title-3 {
+    color: floralwhite;
+    text-align: center;
+}
+
+.container-4 {
+    /* border: 2px solid; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: beige;
+}
+
+.project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project1-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.project1 img {
+    margin-bottom: -35px;
+}
+
+.person1 {
+    border: 2px solid beige;
+    padding: 0 50px;
+}
+
+.project1-description {
+    margin-top: -5px;
+    color: beige;
+    padding: 0px 50px;
+    display: flex;
+    text-align: justify;
+
+}
+
+.container-5 {
+    padding: 50px 50px;
+}
+
+.name {
+    color: floralwhite;
+}
+
+.description {
+    color: beige;
+    text-align: justify;
+}
+
+.container-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    color: beige;
+}
+
+
+.form {
+    /* border: 3px solid; */
+    padding: 50px;
+    margin-top: 20px;
+    color: beige;
+    
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.social {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 111, 54);
+    gap: 20px;
+}
+
+footer {
+    
+}
+
+@media screen and (min-width:600px) {
+    .cont-total {
+        background-color: hsl(216, 12%, 8%);
+        margin: 0;
+        padding: 0;
+        color: hsl(216, 12%, 54%); 
+        max-width: 1000px;
+    }
+
+    .nav {
+        border: 2px solid;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .menu-list {
+        /* border: 3px solid; */
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .box {
+        
+        display: flex;
+        gap: 30px;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-7 {
+        display: flex;
+        /* width: 100%; */
+        flex-direction: row;
+        gap: 100px;
+        justify-content: center;
+
+    }
+
+    .input-group {
+        /* border: 2px solid wheat; */
+        display: flex;
+        width: 100%;
+    }
+
+    .redes {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        text-align: center;
+    }
+
+    .project1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 50px 50px;
+    }
+    
+}
