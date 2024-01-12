@@ -504,7 +504,7 @@ td {
     }
 
     .person1 {
-        border: 2px solid beige;
+        /* border: 2px solid beige; */
         padding: 20px 50px;
         display: flex;
         flex-direction: row;
